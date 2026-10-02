@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "jardin-occitan";
+  default: true;
+  color-scheme: light;
+  --color-primary: #032E15;
+  --color-primary-content: #F8F5EE;
+  --color-secondary: #C8A96A;
+  --color-secondary-content: #1F2A1A;
+  --color-base-100: #F8F5EE;
+  --color-base-content: #1F2A1A;
+}
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
+@layer base {
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+  }
+}
