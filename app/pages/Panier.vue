@@ -4,4 +4,8 @@
 
 <script setup lang="ts">
 
+ useSeoMeta({
+    title:'',
+    description: ''
+ })
 </script> 

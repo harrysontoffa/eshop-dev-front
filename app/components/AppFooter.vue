@@ -2,12 +2,8 @@
     <footer class="footer sm:footer-horizontal bg-primary text-neutral-content px-7 justify-between py-5">
       <div>
           <div class="logo">
-              <NuxtLink to="/acceuil" class="flex gap-1 items-center ">
-                  <img src="/logo.svg" alt="logo" class="h-10 w-auto lg:h-12" >
-                  <div class="flex flex-col " >
-                      <h2 class=" font-bold text-xl leading-none text-secondary " >LES SAVEURS</h2> 
-                      <h2 class=" font-light text-sm  leading-none text-secondary " >D'OCCITANIE</h2>
-                  </div>
+              <NuxtLink to="/acceuil">
+                  <AppLogo></AppLogo>
               </NuxtLink>
           </div>
           <p  class="text-white font-light " >Recettes, nouveautées et produits de saison, <br>une fois par mois </p>
