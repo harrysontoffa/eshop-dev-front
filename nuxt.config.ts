@@ -6,5 +6,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   vite: {plugins: [tailwindcss()]},
-  modules: ['@nuxt/icon', '@nuxt/fonts']
+  modules: ['@nuxt/icon', '@nuxt/fonts'],
+  runtimeConfig: {
+    public: {apiBase: ''}
+  }
 })
+
