@@ -1,7 +1,11 @@
 @import "tailwindcss";
-@plugin "daisyui";
+ 
+@plugin "daisyui" {
+   /*pour bloquer mode sombre temporairement*/
+}
 
 @plugin "daisyui/theme" {
+   
   name: "jardin-occitan";
   default: true;
   color-scheme: light;
